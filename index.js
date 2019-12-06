@@ -6,7 +6,8 @@ const opers = [
 	require('./mul.js'),
 	require('./div.js'),
 	require('./mod.js'),
-	require('./pow.js')
+	require('./pow.js'),
+	require('./eq.js')
 ];
 
 const operators = {};
@@ -20,27 +21,7 @@ opers.forEach((oper)=>{
 	symbols[NAME] = key;
 });
 
-/**
- * 
- * {Multioperator} add 
- * {Multioperator} sub
- * {Multioperator} neg
- * {Multioperator} mul
- * {Multioperator} div
- * {Multioperator} mod
- * {Multioperator} pow
- *
- * {Symbol} ADD
- * {Symbol} SUB
- * {Symbol} NEG
- * {Symbol} MUL
- * {Symbol} DIV
- * {Symbol} MOD
- * {Symbol} POW
- *
- *
- *
- */
+
 
 
 module.exports = {
