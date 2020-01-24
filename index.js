@@ -7,7 +7,13 @@ const opers = [
 	require('./div.js'),
 	require('./mod.js'),
 	require('./pow.js'),
-	require('./eq.js')
+	
+	require('./eq.js'),
+	require('./ne.js'),
+	require('./lt.js'),
+	require('./le.js'),
+	require('./gt.js'),
+	require('./ge.js')
 ];
 
 const operators = {};
