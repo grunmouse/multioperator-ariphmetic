@@ -1,4 +1,4 @@
-const Mop = require('@rakov/multioperator');
+const Mop = require('@grunmouse/multioperator');
 
 const oper = new Mop('sub');
 const base = (a, b)=>(a-b);

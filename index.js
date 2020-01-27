@@ -13,7 +13,10 @@ const opers = [
 	require('./lt.js'),
 	require('./le.js'),
 	require('./gt.js'),
-	require('./ge.js')
+	require('./ge.js'),
+	
+	require('./approx.js')
+	
 ];
 
 const operators = {};
