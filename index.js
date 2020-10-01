@@ -15,7 +15,8 @@ const opers = [
 	require('./gt.js'),
 	require('./ge.js'),
 	
-	require('./approx.js')
+	require('./approx.js'),
+	require('./abs.js'),
 	
 ];
 
